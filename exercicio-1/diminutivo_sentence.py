@@ -1,3 +1,7 @@
+# coding: utf-8
+# Módulo diminutivo_sentence
+# Converte um diminutivo masculino padrão, dentro de uma sentença, para uma forma do falar nordestino.
+# Melhorias na função diminutivo2, criada por João Vitor e Pedro Muniz
 def diminutivo_sentence():
     sentence: str = input("Digite uma sentença, contendo um diminutivo masculino na forma padrão, para convertê-lo em um falar nordestino: ")
     if "inho" in sentence:
