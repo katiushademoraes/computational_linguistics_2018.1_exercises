@@ -1,3 +1,7 @@
+# coding: utf-8
+# Módulo diminutivo_word
+# Converte uma palavra na forma de diminutivo masculino padrão para uma forma do falar nordestino.
+# Melhorias na função diminutivo1, criada por João Vitor
 def diminutivo_word():
         word = input("Digite uma palavra na forma de diminutivo masculino padrão para convertê-la em uma forma do falar nordestino: ")
         for i in word:
