@@ -29,7 +29,7 @@ diminutivo_reverse()
 def next():
     query = input("Deseja Prosseguir? [sim/não]: ")
     while query in "sim":
-        diminutivo_word()
+        diminutivo_reverse()
         next()
     if query not in "sim":
         exit()
